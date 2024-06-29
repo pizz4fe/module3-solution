@@ -1,0 +1,115 @@
+body {
+  font-size: 1em;
+  background-color: dimgray;
+}
+
+p {
+    clear: right;
+    font-size: 1em;   
+    position:relative;
+  }
+.row {
+  margin-bottom:15px;
+}
+#chicken, #beef, #sushi {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.container1, .container2, .container3 {
+    background-color: lightgray;
+    border: solid black 1px;
+    position: relative;
+    margin: 2px;
+    float: left;
+  }
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand   { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+li {
+  text-align: center;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+#nav-item {
+  position: relative;
+  margin-top: 10px;
+}
+#nav-item a {
+  color: yellow;
+  text-align: center;
+}
+#nav-item a:hover {
+  background: blueviolet !important;
+}
+
+#nav-item a span {
+  font-size: 1.8em;
+}
+
+#main-content .container h2  {
+  color: darkred;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggler {
+  clear: both;
+  margin-top: -30px;
+}
+
+@media (max-width: 767px) {
+   .navbar-collapse {
+    background-color: #f8f8f8;
+  }
+
+  .navbar-collapse ul {
+    display: block;
+  }
+
+  .navbar-collapse ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-collapse ul li a {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+   .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+   #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
